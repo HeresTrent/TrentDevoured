@@ -1,0 +1,236 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Trents Xploit Hub", "Serpent")
+
+--MAIN
+
+
+local Main = Window:NewTab("Wanda")
+local MainSection = Main:NewSection("No cooldowns")
+
+MainSection:NewButton("Wanda power steal", "No cooldown", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/FHz5ZwY8'))()
+end)
+
+
+
+MainSection:NewButton("Change to Wanda", "Selection", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/nKP5jp3a"))()
+end)
+
+
+
+MainSection:NewButton("Wanda Choke Spam", "Selection", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/inq20dNq"))()
+end)
+
+
+local Tab = Window:NewTab("Wednesday")
+local Section = Tab:NewSection("No cooldowns")
+
+
+
+Section:NewButton("Wednesday Cello Spam", "No cooldown", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/nTBsAh0a"))()
+end)
+
+
+
+Section:NewButton("Change to Wednesday", "No cooldown", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/ggDsqKe5"))()
+end)
+
+
+
+Section:NewButton("Psychic vision spam", "No cooldown", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/75a5XQbC"))()
+end)
+
+local Tab = Window:NewTab("Dr Strange")
+local Section = Tab:NewSection("No cooldowns")
+
+
+
+Section:NewButton("Heal circle spam", "No cooldown", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/n5eeKsnN"))()
+end)
+
+
+
+Section:NewButton("Ice tentacle spam", "No cooldown", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/xWtG0jJW"))()
+end)
+
+
+
+Section:NewButton("Shield Spam", "No cooldown", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/8gi4bWYN"))()
+end)
+
+
+
+Section:NewButton("change to Dr Strange", "No cooldown", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/wzxjpNJC"))()
+end)
+
+
+local Tab = Window:NewTab("Starlight")
+local Section = Tab:NewSection("No cooldowns")
+
+
+
+Section:NewButton("Blinding spam", "No cooldown", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Fm3ZaQp5"))()
+end)
+
+
+
+Section:NewButton("Change to Starlight", "No cooldown", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/TCFERHSs"))()
+end)
+
+
+
+local Tab = Window:NewTab("Ghostface")
+local Section = Tab:NewSection("No cooldowns")
+
+
+
+Section:NewButton("Call spam", "No cooldown", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Xxack2xY"))()
+end)
+
+
+
+Section:NewButton("Change to Ghostface", "No cooldown", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/1Vk5vSMt"))()
+end)
+
+
+
+
+
+Section:NewButton("Decoy Spam", "No cooldown", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/nPuh6h1E"))()
+end)
+
+local Tab = Window:NewTab("Character skins")
+local Section = Tab:NewSection("Being worked on")
+
+
+
+Section:NewDropdown("Being worked on", "DropdownInf", {"838", "Halloween", "60s"}, function(value)
+
+end)
+
+
+
+local Section = Tab:NewSection("Select Wednesday skin")
+
+local Tab = Window:NewTab("Unlock Gamepass")
+local Section = Tab:NewSection("Unlock gamepass")
+
+
+
+Section:NewButton("Unlock Characters", "Unlock gamepass", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/NZLBM00D'),true))()
+end)
+
+
+
+
+local Tab = Window:NewTab("Admin")
+local Section = Tab:NewSection("Infinite yield")
+
+
+
+Section:NewButton("Infinite Yield", "Infinite Yield", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+
+
+
+local Tab = Window:NewTab("Keybinds")
+local Section = Tab:NewSection("Wanda")
+
+
+
+Section:NewKeybind("Wanda power absorb Keybind", "No cooldowns", Enum.KeyCode.B, function()
+loadstring(game:HttpGet('https://pastebin.com/raw/FHz5ZwY8'))()
+end)
+
+
+
+
+Section:NewKeybind("Wanda Choke Keybind", "No cooldowns", Enum.KeyCode.E, function()
+loadstring(game:HttpGet("https://pastebin.com/raw/inq20dNq"))()
+end)
+
+
+
+local Section = Tab:NewSection("Wednesday")
+
+
+
+Section:NewKeybind("Wednesday Cello Spam", "No cooldowns", Enum.KeyCode.C, function()
+loadstring(game:HttpGet("https://pastebin.com/raw/nTBsAh0a"))()
+end)
+
+
+
+Section:NewKeybind("Wednesday Psychic Vision Spam", "No cooldowns", Enum.KeyCode.P, function()
+loadstring(game:HttpGet("https://pastebin.com/raw/75a5XQbC"))()
+end)
+
+
+
+local Section = Tab:NewSection("Dr Strange")
+
+
+
+Section:NewKeybind("Heal Circle spam keybind", "No cooldowns", Enum.KeyCode.T, function()
+loadstring(game:HttpGet("https://pastebin.com/raw/n5eeKsnN"))()
+end)
+
+
+
+Section:NewKeybind("Ice tentacle spam keybind", "No cooldowns", Enum.KeyCode.G, function()
+loadstring(game:HttpGet("https://pastebin.com/raw/xWtG0jJW"))()
+end)
+
+
+
+Section:NewKeybind("Shield spam keybind", "No cooldowns", Enum.KeyCode.R, function()
+loadstring(game:HttpGet("https://pastebin.com/raw/8gi4bWYN"))()
+end)
+
+
+
+local Section = Tab:NewSection("Starlight")
+
+
+
+Section:NewKeybind("Blind spam keybind", "No cooldowns", Enum.KeyCode.J, function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Fm3ZaQp5"))()
+end)
+
+
+
+local Section = Tab:NewSection("Ghostface (being worked on)")
+
+
+
+
+
+
+
+
+
+--gui
+local Tab = Window:NewTab("Gui toggle")
+local Section = Tab:NewSection("Gui toggle")
+Section:NewKeybind("Toggle", "Toggle", Enum.KeyCode.LeftControl, function()
+    Library:ToggleUI()
+end)
+
+--Credits to Trent and flopera!
