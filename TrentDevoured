@@ -142,7 +142,7 @@ local Section = Tab:NewSection("Remove Name")
 
 
 
-Section:NewToggle("Remove name", "Removes your name", function(state)
+Section:NewToggle("Remove Name", "Removes your name", function(state)
     if state then
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/HeresTrent/Name-remover/main/remove%20name'),true))()
     else
