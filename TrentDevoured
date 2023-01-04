@@ -250,9 +250,9 @@ Section:NewKeybind("Toggle", "Toggle", Enum.KeyCode.LeftControl, function()
 end)
 wait(1)
 game.StarterGui:SetCore("SendNotification", { 
-    Title = "Trents Xploits";
+    Title = "Trents Xploit Hub ❤";
     Text = "Marvellous Playground    Now Active ";
-    Icon = "rbxthumb://type=Asset&id=12039904466&w=150&h=150";
+    Icon = "rbxthumb://type=Asset&id=12040122061&w=150&h=150";
     Duration = "2";
     Button1 = "Close";
 })
