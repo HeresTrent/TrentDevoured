@@ -162,7 +162,7 @@ end)
 
 
 
-Section:NewKeybind("Wanda Choke Keybind", "No cooldowns", Enum.KeyCode.O, function()
+Section:NewKeybind("Wanda Choke Keybind", "No cooldowns", Enum.KeyCode.K, function()
 loadstring(game:HttpGet("https://pastebin.com/raw/inq20dNq"))()
 end)
 
