@@ -248,5 +248,12 @@ local Section = Tab:NewSection("Gui toggle")
 Section:NewKeybind("Toggle", "Toggle", Enum.KeyCode.LeftControl, function()
     Library:ToggleUI()
 end)
-
+wait(1)
+game.StarterGui:SetCore("SendNotification", { 
+    Title = "𝑻𝒓𝒆𝒏𝒕𝒔 𝑿𝒑𝒍𝒐𝒊𝒕 𝑯𝒖𝒃";
+    Text = "Marvellous Playground    ~~ Now Active ~~";
+    Icon = "rbxthumb://type=Asset&id=12039843092&w=150&h=150";
+    Duration = "2";
+    Button1 = "Close";
+})
 --Credits to Trent and flopera!
