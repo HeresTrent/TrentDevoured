@@ -256,4 +256,4 @@ game.StarterGui:SetCore("SendNotification", {
     Duration = "2";
     Button1 = "Close";
 })
---Credits to Trent and flopera!
+--Credits to Trent and flopera! 
