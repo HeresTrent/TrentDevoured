@@ -90,27 +90,27 @@ end)
 
 
 
-local Tab = Window:NewTab("Ghostface")
+local Tab = Window:NewTab("Eleven")
 local Section = Tab:NewSection("No cooldowns")
 
 
 
-Section:NewButton("Call spam", "No cooldown", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/Xxack2xY"))()
+Section:NewButton("Arm break spam", "No cooldown", function()
+
 end)
 
 
 
-Section:NewButton("Change to Ghostface", "No cooldown", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/1Vk5vSMt"))()
+Section:NewButton("Change to Eleven", "No cooldown", function()
+
 end)
 
 
 
 
 
-Section:NewButton("Decoy Spam", "No cooldown", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/nPuh6h1E"))()
+Section:NewButton("Burst wave spam", "No cooldown", function()
+
 end)
 
 
@@ -242,7 +242,7 @@ wait(1)
 game.StarterGui:SetCore("SendNotification", { 
     Title = "Trents Xploit Hub ❤";
     Text = "Marvellous Playground    Now Active ";
-    Icon = "rbxthumb://type=Asset&id=12040122061w=150&h=150";
+    Icon = "rbxthumb://type=Asset&id=12040122061&w=150&h=150";
     Duration = "2";
     Button1 = "Close";
 })
