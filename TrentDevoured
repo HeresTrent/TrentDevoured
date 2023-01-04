@@ -113,18 +113,8 @@ Section:NewButton("Decoy Spam", "No cooldown", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/nPuh6h1E"))()
 end)
 
-local Tab = Window:NewTab("Character skins")
-local Section = Tab:NewSection("Being worked on")
 
 
-
-Section:NewDropdown("Being worked on", "DropdownInf", {"838", "Halloween", "60s"}, function(value)
-
-end)
-
-
-
-local Section = Tab:NewSection("Select Wednesday skin")
 
 local Tab = Window:NewTab("Unlock Gamepass")
 local Section = Tab:NewSection("Unlock gamepass")
